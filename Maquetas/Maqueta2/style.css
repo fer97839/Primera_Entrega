@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 80%;
+}
+
+header{
+    background-color: burlywood;
+    height: 25%;
+    width: 100%;
+}
+
+footer{
+    background-color: coral;
+    height: 50%;
+    width: 100%;
+}
+
+.tercero{
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+
+.tema{
+    background-color: cornflowerblue;
+    width: 50%;
+}
+
+.curso{
+    background-color: darksalmon;
+    width: 50%;
+}
+
+aside{
+    background-color: dimgray;
+    
+}
+

@@ -1,0 +1,172 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+#main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "header"
+    "segundo"
+    "tercero"
+    "cuarto"
+    "quinto"
+    "sexto"
+    "contacto"
+    "final";
+}
+
+.link{
+    background-color: antiquewhite;
+    display: flex;
+    padding: 5px;
+    width: 100%;
+}
+
+.link li{
+     padding: 10px;
+}
+
+.link a{
+    text-decoration: none;
+}
+
+#segundo{
+    background-color: lightgray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+hr{
+    width: 140px;
+    height: 4px;
+    border: 0cap;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+
+#menu2{
+    display: flex;
+    gap: 10px;
+    height: 40%;
+
+}
+
+#menu2 div{
+    flex: 1;
+    padding: 30px;
+    background-color: lightblue;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#cuarto, #quinto, #sexto{
+    padding: 20px;
+    text-align: justify;
+}
+
+#cuarto{
+    background-color: antiquewhite;
+}
+
+#quinto{
+    background-color: bisque;
+}
+
+#sexto{
+    background-color: cornsilk;
+}
+
+#contacto{
+    padding: 10px;
+    background-color: lightgray;
+}
+
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+
+@media(min-width: 1024px){
+    #main{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "segundo"
+        "tercero"
+        "cuarto"
+        "quinto"
+        "sexto"
+        "contacto"
+        "footer";
+    }
+
+    #menu2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #cuarto,  #quinto, #sexto{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 632px){
+    #main{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "header"
+        "segundo"
+        "tercero"
+        "cuarto"
+        "quinto"
+        "sexto"
+        "contacto"
+        "footer";
+    }
+
+    #menu2{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        gap: 10px;
+    }
+
+    #cuarto, #quinto, #sexto{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 762px){
+    #main{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "segundo"
+        "tercero"
+        "cuarto"
+        "quinto"
+        "sexto"
+        "contacto"
+        "footer";
+    }
+
+    #menu2{
+        display: block;
+        text-align: center;
+    }
+
+    #cuarto, #quinto, #sexto{
+        text-align: center;
+    }
+}

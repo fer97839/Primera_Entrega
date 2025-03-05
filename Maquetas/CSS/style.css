@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;
+    padding: 0%;
+    margin: 0%;
+}
+
+.row{
+    display: flex;
+    background-color: blueviolet;
+    flex-direction: row;
+    padding: 145px;
+}
+
+.rew{
+    display: flex;
+    background-color: cadetblue;
+    flex-direction: row;
+    padding: 145px;
+}
+
+.ruw{
+    display: flex;
+    background-color: coral;
+    flex-direction: row;
+    padding: 146px;
+}
+
+.riw{
+    display: flex;
+    background-color: darkgrey;
+    flex-direction: row;
+    padding: 146px;
+}
+
+.contenedor{
+    display: flex;
+    columns: 4;
+}

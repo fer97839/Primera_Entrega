@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+}
+
+.caja{
+    border: solid;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+#personalizada{
+    background-color: pink;
+    position: sticky;
+    top: 10px;
+    left: 30px;
+}

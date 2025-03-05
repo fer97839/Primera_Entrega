@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(red, green, blue);
+}
+h1{
+    color: red;
+    background-color: beige;
+    font-size: 60px;
+}
+
+img{
+    object-fit: cover;
+}
